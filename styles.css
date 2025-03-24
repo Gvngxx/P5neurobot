@@ -1,0 +1,29 @@
+/* Estilos para el juego */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1e1e1e;
+}
+
+#game-container {
+    border: 3px solid cyan;
+    box-shadow: 0px 0px 15px cyan;
+    border-radius: 4px;
+    width: 95%;
+    height: 95%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
